@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For Alexa</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- PageFlip -->
+  <script src="https://unpkg.com/page-flip/dist/js/page-flip.browser.js"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+
+<body>
+
+<div id="book">
+
+  <!-- COVER -->
+  <div class="page cover">
+    <img src="cover.jpg">
+  </div>
+
+  <!-- FIRST SPREAD -->
+  <div class="page">
+    <div class="design"></div>
+  </div>
+
+  <div class="page message">
+    <h2>For You</h2>
+    <p>
+      This isn't just a collection of poems.<br><br>
+      It's every moment, every memory,<br>
+      every version of you that stayed with me.
+    </p>
+  </div>
+
+  <!-- CHAPTER -->
+  <div class="page chapter">
+    <h3>Chapter I</h3>
+    <p>Moments I wish would never end</p>
+  </div>
+
+  <div class="page">Poem 1</div>
+  <div class="page">Poem 2</div>
+
+  <!-- continue until 30 -->
+
+  <!-- END -->
+  <div class="page ending">
+    <h2>For Alexa</h2>
+    <p>Thank you for existing.</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
