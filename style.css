@@ -69,11 +69,15 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+ }
+
+.content H2 {
   padding-left: 10px;
   padding-right: 30px;
-  font-family: 'Great Vibes', 'Verdana', sans-serif;
+  font-family: 'Ink Free', 'Verdana', sans-serif;
   color: azure;
- }
+}
 
 
 /* DESIGN PAGE */
@@ -83,13 +87,20 @@ body {
 
 /* MESSAGE */
 .message h2 {
+  padding-top: 80px;
+  text-align: center;
   font-family: 'Great Vibes', cursive;
   font-size: 32px;
   color: #facc15;
 }
 
 .message p {
+  font-family: Futura, cursive, "Book Antiqua", sans-serif;
   line-height: 1.8;
+  font-size: 20px;
+  color: blanchedalmond;
+  text-align: center;
+
 }
 
 /* CHAPTER */
