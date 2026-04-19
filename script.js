@@ -27,7 +27,7 @@ pageFlip.on("flip", (e) => {
   if (page.classList.contains("chapter")) return;
   if (page.classList.contains("ending")) return;
   if (page.classList.contains("message")) return;
-  if (page.classList.contains("Opening-message")) return;
+  if (page.classList.contains("gift")) return;
 
   gsap.from(page.querySelectorAll("p, h2, span"), {
     opacity: 0,
