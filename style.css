@@ -73,9 +73,12 @@ body {
  }
 
 .content H2 {
+  text-align: center;
+  padding-top: 20px;
   padding-left: 10px;
   padding-right: 30px;
-  font-family: 'Ink Free', 'Verdana', sans-serif;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 40px;
   color: burlywood;
 }
 
@@ -97,9 +100,9 @@ body {
 }
 
 .Desm p{
-  padding-left: 85px;
-  padding-top: 74px;
-  font-family: 'Ink Free', 'Verdana', sans-serif;
+  padding-left: 89px;
+  padding-top: 68px;
+  font-family: "Shadows Into Light", cursive;
   color: #111827;
   font-size: 30px;
 }
@@ -115,7 +118,7 @@ body {
 }
 
 .message p {
-  font-family: Futura, cursive, "Book Antiqua", sans-serif;
+  font-family: "Shadows Into Light", cursive;
   line-height: 1.8;
   font-size: 20px;
   color: blanchedalmond;
